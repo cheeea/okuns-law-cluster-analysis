@@ -1,4 +1,4 @@
-**Okun's Law Cluster Analysis**
+## **Okun's Law Cluster Analysis**
 
 Cluster analysis of US states based on fit of Okun's Law and other relevant covariates. 
 
@@ -12,4 +12,17 @@ $$
 
 Other covariates of interest are the state-level average growth rates of [population levels](https://fred.stlouisfed.org/release/tables?rid=118&eid=259194), [real median household income](https://fred.stlouisfed.org/release/tables?rid=249&eid=259515), and [PCE (Personal Consumption Expenditure)](https://fred.stlouisfed.org/release/tables?rid=391&eid=216084), in addition to the median [number of degrees attained at the bachelor's level or higher](https://fred.stlouisfed.org/release/tables?rid=330&eid=391444).  
 
-3. **okuns.ipynb**
+2. **okuns.ipynb**
+
+Carried out K-means clustering to group states based on similar values of RMSE with respect to Okun's law and the aforementioned covariates. A summary of the K = 5 clusters, chosen from silhouette score analysis, is below: 
+
+| Cluster      | States |
+| ----------- | ----------- |
+| 1      | Connecticut, Illinois, Iowa, Kansas, Maine, Massachusetts, Minnesota, Missouri, Nebraska, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont, Wisconsin      |
+| 2   | Alaska, Arizona, California, Florida, Idaho, Nevada, New Mexico, North Carolina, Oklahoma, Texas |
+| 3  | Alabama, Arkansas, Indiana, Kentucky, Louisiana, Michigan, Mississippi, Ohio, South Carolina, West Virginia      |
+| 4   | Colorado, Georgia, Maryland, Montana, Oregon, South Dakota, Tennessee, Utah, Virginia, Washington      | 
+| 5  | Delaware, Hawaii, North Dakota, Wyoming        |
+
+Created a choropleth plot to visualize the clusters. 
+
