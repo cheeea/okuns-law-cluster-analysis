@@ -24,5 +24,7 @@ Carried out K-means clustering to group states based on similar values of RMSE w
 | 4   | Colorado, Georgia, Maryland, Montana, Oregon, South Dakota, Tennessee, Utah, Virginia, Washington      | 
 | 5  | Delaware, Hawaii, North Dakota, Wyoming        |
 
-Created a choropleth plot to visualize the clusters. 
+Created a choropleth plot to visualize the clusters. The full interactive plot is available [here](https://nbviewer.org/github/cheeea/okuns-law-cluster-analysis/blob/main/okuns.ipynb). 
+
+![image](https://github.com/user-attachments/assets/1eede76b-4e4d-452b-9a99-d877af15cd38)
 
